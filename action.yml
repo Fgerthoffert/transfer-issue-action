@@ -8,6 +8,9 @@ inputs:
   create_stub:
     description: Create a stub issue with title and description in original repo
     default: false
+  create_labels_if_missing:
+    description: Whether to create labels if they don't exist in the target repository (matched by name)
+    default: false
   debug:
     description: Enable debug output
     default: false
